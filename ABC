@@ -1,0 +1,13 @@
+use std::collections::LinkedList;
+
+fn main() {
+    let mut ll = LinkedList::new();
+
+    ll.push_back('A');
+    ll.push_back('B');
+    ll.push_back('C');
+
+    for ch in ll.iter() {
+        println!("{}", ch);
+    }
+}
